@@ -10,18 +10,13 @@
     <body>
         <div id="global">
             <header>
-                <a href="/"><h1 id="titreBlog">Mon super blog !</h1></a>
-                <p>Je vous souhaite la bienvenue sur ce modeste blog.</p>
+                <a href="/"><h1 id="titreBlog">API Mazaire</h1></a>
             </header>
-            <nav>
-                <a href="/">Home</a>
-                <a href="/entity/index">Entities</a>
-            </nav>
             <div id="contenu">
                 <?= $content ?>
             </div> <!-- #contenu -->
             <footer id="piedBlog">
-                Blog réalisé avec PHP, HTML5 et CSS.
+                Site réalisé avec PHP, HTML5 et CSS.
             </footer>
         </div> <!-- #global -->
     </body>
