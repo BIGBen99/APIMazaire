@@ -10,6 +10,7 @@
     <body>
         <div id="global">
             <header>
+                <img src="public/images/APIMazaire.png">
                 <a href="/"><h1 id="titreBlog">API Mazaire</h1></a>
             </header>
             <div id="contenu">
