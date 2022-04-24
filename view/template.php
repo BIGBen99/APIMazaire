@@ -2,7 +2,7 @@
 <html lang="fr">
     <head>
         <meta charset="utf-8" />
-        <base href="<?= $webRoot ?>">
+        <base href="<?= $webRoot ?>" />
         <link href="public/css/style.css" rel="stylesheet" /> 
         <title><?= $title ?></title>
     </head>
@@ -10,8 +10,7 @@
     <body>
         <div id="global">
             <header>
-                <img src="public/images/APIMazaire.png" alt="API Mazaire">
-                <a href="/"><h1 id="titreBlog">API Mazaire</h1></a>
+                <a href="/"><img src="public/images/APIMazaire.png" alt="API Mazaire"></a>
             </header>
             <div id="contenu">
                 <?= $content ?>
